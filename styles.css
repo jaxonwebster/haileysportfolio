@@ -282,7 +282,7 @@ html, body {
 .btn.secondary {
   background: white !important;
   color: #000000;
-  border: 2px solid #8E7332;
+  border: 2px solid #2A091B;
   z-index: 2 !important;
 }
 
@@ -2528,7 +2528,7 @@ font-weight: 800;
 .btn.secondary {
   background: #ffffff;
   color: #000000;
-  border: 2px solid #8E7332;
+  border: 2px solid #2A091B;
 }
 
 
