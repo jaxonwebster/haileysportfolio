@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Jaxon Webster | Portfolio</title>
+
+  <!-- Styles --->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+  <link rel="icon" href="images/cartoon.png" type="image/x-icon">
+</head>
+<body>
+<div class="signal-bg">
+  <canvas id="signalCanvas"></canvas>
+</div>
+
+
+
+  <!-- Navbar --->
+  <header class="navbar">
+    <div class="logo">JW</div>
+    <button class="menu-btn" id="menuBtn">☰</button>
+  </header>
+
+  <!-- Slide-out Menu -->
+<nav class="side-menu" id="sideMenu">
+  <button class="close-menu" id="closeMenu">✕</button>
+
+  <a href="index.html">Home</a>
+  <a href="about.html">About Me</a>
+  <a href="projects.html">Projects</a>
+  <a href="resume.html">Resume</a>
+  <a href="endorsements.html">Endorsements</a>
+</nav>
+
+
+  <!-- Overlay -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- Hero -->
+  <section class="hero hero-split">
+  <!-- LEFT SIDE -->
+  <div class="hero-left">
+    <h1 class="hero-title">
+  <span id="typewriter"></span>
+</h1>
+
+
+    <p class="hero-text">
+  I build <span id="rotating-word"></span>
+</p>
+
+
+    <div class="hero-buttons">
+      <a href="projects.html" class="btn primary">View My Work</a>
+      <a href="about.html" class="btn secondary">About Me</a>
+      <a href="#contact" class="btn secondary">Contact Me</a>
+    </div>
+  </div>
+
+  <!-- RIGHT SIDE -->
+  <div class="hero-right">
+    <img src="images/cartoon.png" alt="Jaxon Webster" />
+  </div>
+</section>
+
+<!--
+
+<section class="who-is-jaxon">
+
+  <div class="who-container">
+
+  
+<div class="who-image">
+      <img
+        src="images/IMG_5921.jpg"
+        alt="Jaxon Webster"
+        class="who-rotating-image"
+      />
+    </div>
+
+ 
+    <div class="who-text">
+      <h2 class="gradient-text">Who is Jaxon?</h2>
+      <p class="who-subtitle">
+        A builder at heart. A problem solver by trade.
+      </p>
+
+      <p class="who-description">
+        I’m a web developer and information systems student who loves turning
+        complex problems into clean, secure, and intuitive digital experiences.
+        Whether I’m working with data, cloud infrastructure, or frontend design,
+        my goal is always the same: build things that actually help people.
+      </p>
+    </div>
+
+  </div>
+</section>
+-->
+
+
+
+  <!-- Projects -->
+<section id="projects" class="projects">
+  <h2 class="gradient-text">Featured Projects</h2>
+
+
+  <div class="project-grid">
+
+    <div class="project-card">
+      <div class="project-image">
+        <img src="images/IMG_5556.jpg" alt="Cineniche">
+      </div>
+      <div class="project-content">
+        <h3>CineNiche</h3>
+        <p>
+          My team and I placed 2nd in a coding competition to create a functional streaming service that recommends movies to you based on watch history/preferences. 
+        </p>
+        <a href="https://youtu.be/du8ue6cPfEI" class="project-btn">Watch Demo</a>
+        <a href="projects.html" class="project-btn">Learn More</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-image">
+        <img src="images/image.png" alt="Project 2">
+      </div>
+      <div class="project-content">
+        <h3>Web Design Intern</h3>
+        <p>
+          As a Web Design Intern for Lemonade Stand, I helped design and create 100+ different sites for clients.
+        </p>
+        <a href="projects.html" class="project-btn">View My Work</a>
+      </div>
+    </div>
+<!--
+<section class="contact-section">
+
+
+    <div class="project-card">
+      <div class="project-image">
+        <img src="images/project3.jpg" alt="Project 3">
+      </div>
+      <div class="project-content">
+        <h3>Third Project</h3>
+        <p>
+          Description text that explains the purpose or outcome of the project.
+        </p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-image">
+        <img src="images/project4.jpg" alt="Project 4">
+      </div>
+      <div class="project-content">
+        <h3>Final Project</h3>
+        <p>
+          A short summary highlighting the main idea or technology used.
+        </p>
+      </div>
+    </div>
+      
+</section>
+-->
+
+  </div>
+</section>
+<!-- =========================
+     CONTACT ME
+========================== -->
+<section class="contact-section" id="contact">
+  <h2 class="gradient-text">Contact Me</h2>
+
+  <div class="contact-card">
+    <div class="contact-item">
+      <i class="fas fa-envelope"></i>
+      <a href="mailto:jaxonwebster4@gmail.com">jaxonwebster4@gmail.com</a>
+    </div>
+
+    <div class="contact-item">
+      <i class="fas fa-phone"></i>
+      <a href="tel:5202600258">(520) 260-0258</a>
+    </div>
+
+    <div class="contact-item">
+      <i class="fab fa-linkedin-in"></i>
+      <a
+        href="https://www.linkedin.com/in/jaxon-webster"
+        target="_blank"
+      >
+        linkedin.com/in/jaxon-webster
+      </a>
+    </div>
+    <div class="contact-item">
+  <i class="fab fa-github"></i>
+  <a
+    href="https://github.com/jaxonwebster"
+    target="_blank"
+  >
+    https://github.com/jaxonwebster
+  </a>
+</div>
+
+
+    <div class="contact-item">
+      <i class="fas fa-location-dot"></i>
+      <span>Logan, Utah</span>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-profile">
+        <img src="images/portrait.jpg" alt="Jaxon Webster" class="footer-avatar" />
+        <p class="footer-name">Jaxon Webster</p>
+
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/in/jaxon-webster" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:jaxonwebster4@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="tel:5202600258">
+            <i class="fas fa-phone"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h4>Contact</h4>
+        <p>Email: <a href="mailto:jaxonwebster4@gmail.com">jaxonwebster4@gmail.com</a></p>
+        <p>Phone: <a href="tel:5202600258">(520) 260-0258</a></p>
+        <p>Location: Logan, Utah</p>
+      </div>
+
+      <div class="footer-column">
+        <h4>Pages</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="endorsements.html">Endorsements</a>
+        <a href="#contact">Resume</a>
+      </div>
+
+    </div>
+    <p class="footer-bottom">© 2026 Jaxon Webster</p>
+  </footer>
+  <!-- =========================
+     MINI CHAT ASSISTANT
+========================== -->
+<div class="chatbot">
+
+  <button class="chatbot-toggle" id="chatbotToggle">
+    💬
+  </button>
+
+  <div class="chatbot-window" id="chatbotWindow">
+    <div class="chatbot-header">
+      <span>Ask Jaxon</span>
+      <button id="chatbotClose">✕</button>
+    </div>
+
+    <div class="chatbot-body" id="chatbotBody">
+      <p class="bot-message">
+        Hey! 👋 What would you like to know?
+      </p>
+    </div>
+
+    <div class="chatbot-questions">
+      <button data-question="skills">What technologies do you use?</button>
+      <button data-question="experience">What kind of experience do you have?</button>
+      <button data-question="projects">What projects should I check out?</button>
+      <button data-question="contact">How can I contact you?</button>
+    </div>
+  </div>
+
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
