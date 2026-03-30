@@ -293,6 +293,7 @@ html, body {
   position: relative;
   padding: 5rem 2rem;
   z-index: 1;
+   background-color: #F9E1EE;
 }
 .projects .project-image {
   width: 100%;
@@ -931,6 +932,7 @@ html, body {
 
 .about-now {
   padding: 4rem 2rem;
+   background-color: #F9E1EE;
 }
 
 .about-now h2 {
@@ -1811,8 +1813,8 @@ font-weight: 800;
   background: linear-gradient(
     to bottom,
     #ffffff 0%,
-    #ddeee8 35%,
-    rgba(64, 160, 90, 0.15) 90%
+    #F9E1EE 35%,
+    rgba(249, 225, 238, 0.4) 90%
   );
 }
 
@@ -2576,8 +2578,8 @@ font-weight: 800;
   background: linear-gradient(
     to bottom,
     #ffffff 0%,
-    #ddeee8 40%,
-    rgba(64, 160, 90, 0.15) 80%
+    #F9E1EE 35%,
+    rgba(249, 225, 238, 0.4) 90%
   );
 
   padding: 4rem 0 6rem;
